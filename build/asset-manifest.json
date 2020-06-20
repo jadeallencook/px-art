@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/px-art/build/static/css/main.b69c4953.chunk.css",
+    "main.js": "/px-art/build/static/js/main.5c47135a.chunk.js",
+    "main.js.map": "/px-art/build/static/js/main.5c47135a.chunk.js.map",
+    "runtime-main.js": "/px-art/build/static/js/runtime-main.db06f73c.js",
+    "runtime-main.js.map": "/px-art/build/static/js/runtime-main.db06f73c.js.map",
+    "static/js/2.f5c4d015.chunk.js": "/px-art/build/static/js/2.f5c4d015.chunk.js",
+    "static/js/2.f5c4d015.chunk.js.map": "/px-art/build/static/js/2.f5c4d015.chunk.js.map",
+    "index.html": "/px-art/build/index.html",
+    "precache-manifest.854fb884a0818b2c928b34d5d47cfce5.js": "/px-art/build/precache-manifest.854fb884a0818b2c928b34d5d47cfce5.js",
+    "service-worker.js": "/px-art/build/service-worker.js",
+    "static/css/main.b69c4953.chunk.css.map": "/px-art/build/static/css/main.b69c4953.chunk.css.map",
+    "static/js/2.f5c4d015.chunk.js.LICENSE.txt": "/px-art/build/static/js/2.f5c4d015.chunk.js.LICENSE.txt",
+    "static/media/click.wav": "/px-art/build/static/media/click.6d228f29.wav",
+    "static/media/pop.wav": "/px-art/build/static/media/pop.9f6c9dfe.wav"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db06f73c.js",
+    "static/js/2.f5c4d015.chunk.js",
+    "static/css/main.b69c4953.chunk.css",
+    "static/js/main.5c47135a.chunk.js"
+  ]
+}
