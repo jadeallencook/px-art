@@ -1,0 +1,6 @@
+div.Board {
+    width: 480px;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+}

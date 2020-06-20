@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import useBoard from './hooks/useBoard';
+import Board from './components/Board';
+import Colors from './components/Colors';
 
 function App() {
+  const { pxs, setPxs, colors, selected, setSelected } = useBoard(
+    16,
+    16,
+    window.location.hash ? window.location.hash.replace('#', '') : null
+  );
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>
+        <b>PX</b> ART
+      </h1>
+      <Board setPxs={setPxs} pxs={pxs} colors={colors} selected={selected} />
+      <Colors colors={colors} selected={selected} setSelected={setSelected} />
     </div>
   );
 }
