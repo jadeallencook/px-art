@@ -3,6 +3,7 @@ import './App.css';
 import useBoard from './hooks/useBoard';
 import Board from './components/Board';
 import Colors from './components/Colors';
+import Featured from './components/Featured';
 
 function App() {
   const { pxs, setPxs, colors, selected, setSelected } = useBoard(
@@ -17,6 +18,7 @@ function App() {
       </h1>
       <Board setPxs={setPxs} pxs={pxs} colors={colors} selected={selected} />
       <Colors colors={colors} selected={selected} setSelected={setSelected} />
+      <Featured />
     </div>
   );
 }
