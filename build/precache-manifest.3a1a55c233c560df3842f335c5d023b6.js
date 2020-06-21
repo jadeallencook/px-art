@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d5cab3dd0d444e0fd08c968b9cfa47bd",
+    "revision": "2f90afb2685f060e8e860a80e3a5f6d4",
     "url": "/px-art/build/index.html"
   },
   {
-    "revision": "f240bd6e167a76ede95d",
-    "url": "/px-art/build/static/css/main.b69c4953.chunk.css"
+    "revision": "9e5a82ff4e4a07fef675",
+    "url": "/px-art/build/static/css/main.306207fc.chunk.css"
   },
   {
     "revision": "d893dc7eb31dc961f764",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/px-art/build/static/js/2.f5c4d015.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f240bd6e167a76ede95d",
-    "url": "/px-art/build/static/js/main.5c47135a.chunk.js"
+    "revision": "9e5a82ff4e4a07fef675",
+    "url": "/px-art/build/static/js/main.422cf72b.chunk.js"
   },
   {
     "revision": "25d8200062a17c88b358",
